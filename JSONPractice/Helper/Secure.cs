@@ -36,7 +36,7 @@ namespace JSONPractice.Helper
             }
 
             var securedCardInfo = JsonConvert.SerializeObject(cardList, Formatting.Indented);
-            File.WriteAllText(fileName.Replace(".json", "_no_no_no_mr_fish.json"), securedCardInfo);
+            File.WriteAllText(fileName.Replace("Card.json", "No_no_no_Mr_Fish.json"), securedCardInfo);
         }
     }
 }
